@@ -1,7 +1,7 @@
 # CodeaUnit
 CodeaUnit is a unit testing framework for Codea on iPad. I understand that many people may think of Codea as a playground to simply hack together ideas and perhaps testing doesn't matter to them. I personally feel test-driving code can get you to your desired goal faster and more efficiently.
 
-Codea is a fantastic tool for coders and CodeaUnit is itended to provide means of unit testing for it.
+Codea is a fantastic tool for coders and CodeaUnit is intended to provide means of proper unit testing for it.
 
 ## Installation
 1. Simply create a new project called 'CodeaUnit'.
