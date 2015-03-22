@@ -57,6 +57,8 @@ function testCodeaUnitFunctionality()
             -- Some teardown
         end)
         
+        -- The callback doesn't have to be inline like this
+        -- can also be a reference to the function which is declared elsewhere
         _:test("Equality test", function()
             _:expect("Foo").is("Foo")
         end)
@@ -70,6 +72,8 @@ function testCodeaUnitFunctionality()
         end)
 
         _:test("Thrown test", function()
+            -- When using the 'throws' expectation, you need to pass in a function
+            -- reference to the 'expect' method.
             _:expect(function()
                 error("Foo error")
             end).throws("Foo error")
