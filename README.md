@@ -26,7 +26,7 @@ When you add the CodeaUnit dependency to your project you get a couple of things
 CodeaUnit provides a runner which is currently fairly primitive but is still pretty convenient. Simply hit the 'CodeaUnit Runner' button (or `CodeaUnit.execute()` programmatically). The runner will look for any functions in your entire application (all classes) whose names start with 'test' and it will execute them for you. For cleanliness, a best practice will be to put your test functions in test classes but location really doesn't matter.
 
 ### Manual Execution
-The runner is optional. You can also fire your tests off inline anywhere you want by called the `describe` function. More detail in the example below. Use of the global `_` instance of CodeaUnit is also optional. You can create your own instance if you prefer. `local cu = CodeaUnit()`
+The runner is optional. You can also fire your tests off inline anywhere you want by called the `describe` function. More detail in the example below.
 
 ### Supported Expectations
 - `is()`
