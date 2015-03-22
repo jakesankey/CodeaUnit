@@ -29,10 +29,10 @@ CodeaUnit provides a runner which is currently fairly primitive but is still pre
 The runner is optional. You can also fire your tests off inline anywhere you want by called the `describe` function. More detail in the example below. Use of the global `_` instance of CodeaUnit is also optional. You can create your own instance if you prefer. `local cu = CodeaUnit()`
 
 ### Supported Expectations
-`is()`
-`isnt()`
-`has()` (check if array/table contains item)
-`throws()`
+- `is()`
+- `isnt()`
+- `has()` (check if array/table contains item)
+- `throws()`
 
 ### Examples
 ```lua
