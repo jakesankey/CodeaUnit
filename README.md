@@ -23,10 +23,10 @@ When you add the CodeaUnit dependency to your project you get a couple of things
     ![](https://github.com/jakesankey/CodeaUnit/blob/master/screenshots/IMG_0431.PNG)
 
 ### CodeaUnit Runner
-CodeaUnit provides a runner which is currently fairly primitive but is still pretty convenient. Simply hit the 'CodeaUnit Runner' button (or `CodeaUnit.execute()` programmatically). The runner will look for any functions in your entire application (all classes) whose names start with 'test' and it will execute them for you. For cleanliness, a best practice will be to put your test functions in test classes but location really doesn't matter.
+CodeaUnit provides a runner which is currently fairly primitive but is still pretty convenient. Simply hit the 'CodeaUnit Runner' button (or `CodeaUnit.execute()` programmatically). The runner will look for any global functions in your entire application (all classes) whose names start with 'test' and it will execute them for you. For cleanliness, a best practice will be to put your test functions in test classes but location really doesn't matter.
 
 ### Manual Execution
-The runner is optional. You can also fire your tests off inline anywhere you want by called the `describe` function. More detail in the example below.
+The runner is optional. You can also fire your tests off inline anywhere you want by calling the `describe` function. More detail in the example below.
 
 ### Supported Expectations
 - `is()`
